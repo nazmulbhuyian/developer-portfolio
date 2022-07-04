@@ -6,10 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name{
     color: orange;
 }
-section{
+.display-flex-section{
     display: flex;
 }
 .half-width{
@@ -40,4 +43,40 @@ section{
 .first-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.second-section{
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-section{
+    padding-right: 15%;
+}
+
+.experience-section{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#font{
+    border-left: 7px solid tomato;
+}
+#baby{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
+    font-size: 30px;
 }
