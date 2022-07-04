@@ -76,7 +76,6 @@ h2{
 #baby{
     border-left: 7px solid blue;
 }
-footer p{
+footer h2{
     text-align: center;
-    font-size: 30px;
 }
